@@ -1,0 +1,13 @@
+targets:
+  $default:
+    builders:
+      injectable_generator:injectable_builder:
+        options:
+          auto_register: true
+          # auto registers any class with a name matches the given pattern
+          class_name_pattern:
+            "^.*Bloc$|^.*UseCase$|^.*Mapper$|^.*RepositoryImpl$|^.*DataSource$"
+      injectable_generator:injectable_config_builder:
+        generate_for:
+          include:
+            - lib/**/*.dart
