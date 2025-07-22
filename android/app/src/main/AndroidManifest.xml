@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.plumillonforge.assessment">
+    package="fr.plumillonforge.greepp">
    <application
-        android:label="tirios_assessment"
+        android:label="greepp"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

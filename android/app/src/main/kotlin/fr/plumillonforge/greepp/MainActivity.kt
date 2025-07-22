@@ -1,4 +1,4 @@
-package com.plumillonforge.assessment
+package fr.plumillonforge.greepp
 
 import io.flutter.embedding.android.FlutterActivity
 
