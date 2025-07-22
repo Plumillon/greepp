@@ -1,7 +1,3 @@
-
-# Created by https://www.toptal.com/developers/gitignore/api/flutter,androidstudio
-# Edit at https://www.toptal.com/developers/gitignore?templates=flutter,androidstudio
-
 ### Flutter ###
 # Flutter/Dart/Pub related
 **/doc/api/
@@ -137,6 +133,9 @@ obj/
 # User-specific configurations
 .idea/
 
+# VSCode
+.vscode/
+
 # OS-specific files
 .DS_Store
 .DS_Store?
@@ -183,4 +182,3 @@ fabric.properties
 
 !/gradle/wrapper/gradle-wrapper.jar
 
-# End of https://www.toptal.com/developers/gitignore/api/flutter,androidstudio
